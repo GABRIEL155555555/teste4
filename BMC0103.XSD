@@ -4,7 +4,7 @@
     targetNamespace='http://www.bcb.gov.br/SPB/BMC0103.xsd'
     xmlns='http://www.bcb.gov.br/SPB/BMC0103.xsd'
     elementFormDefault='qualified'
-    version='5.02'>
+    version='5.02'>o
  
 <!-- Definicao da mensagem -->
  
@@ -12,9 +12,9 @@
   <xs:annotation>
     <xs:documentation>
       <cat:InfEvento>
-        <cat:Evento>BMC0103 - BMC informa Liquidação de saldo credor em moeda estrangeira</cat:Evento>
-        <cat:Descricao>Destinado à Câmara BMC informar para a IF qual o saldo credor em moeda estrangeira liquidado.</cat:Descricao>
-        <cat:Servico>Liquidação em Moeda Estrangeira BMC</cat:Servico>
+        <cat:Evento>BMC0103 - BMC informa Liquidaï¿½ï¿½o de saldo credor em moeda estrangeira</cat:Evento>
+        <cat:Descricao>Destinado ï¿½ Cï¿½mara BMC informar para a IF qual o saldo credor em moeda estrangeira liquidado.</cat:Descricao>
+        <cat:Servico>Liquidaï¿½ï¿½o em Moeda Estrangeira BMC</cat:Servico>
         <cat:TipoFluxo>Fluxo5</cat:TipoFluxo>
       </cat:InfEvento>
     </xs:documentation>
@@ -59,8 +59,8 @@
       <xs:annotation>
         <xs:documentation>
           <cat:InfMensagem>
-            <cat:Mensagem>Informa Liquidação do Saldo Credor em Moeda Estrangeira</cat:Mensagem>
-            <cat:Emissor>Câmara BMC</cat:Emissor>
+            <cat:Mensagem>Informa Liquidaï¿½ï¿½o do Saldo Credor em Moeda Estrangeira</cat:Mensagem>
+            <cat:Emissor>Cï¿½mara BMC</cat:Emissor>
             <cat:Destinatario>IF</cat:Destinatario>
           </cat:InfMensagem>
         </xs:documentation>
@@ -75,8 +75,8 @@
       <xs:annotation>
         <xs:documentation>
           <cat:InfCampo>
-            <cat:NomeCampo>Código Mensagem</cat:NomeCampo>
-            <cat:DescricaoCampo>Código da mensagem do sistema associado ao evento.</cat:DescricaoCampo>
+            <cat:NomeCampo>Cï¿½digo Mensagem</cat:NomeCampo>
+            <cat:DescricaoCampo>Cï¿½digo da mensagem do sistema associado ao evento.</cat:DescricaoCampo>
           </cat:InfCampo>
         </xs:documentation>
       </xs:annotation>
@@ -85,8 +85,8 @@
       <xs:annotation>
         <xs:documentation>
           <cat:InfCampo>
-            <cat:NomeCampo>Número Controle BMC</cat:NomeCampo>
-            <cat:DescricaoCampo>Número de controle da câmara BMC.</cat:DescricaoCampo>
+            <cat:NomeCampo>Nï¿½mero Controle BMC</cat:NomeCampo>
+            <cat:DescricaoCampo>Nï¿½mero de controle da cï¿½mara BMC.</cat:DescricaoCampo>
           </cat:InfCampo>
         </xs:documentation>
       </xs:annotation>
@@ -96,7 +96,7 @@
         <xs:documentation>
           <cat:InfCampo>
             <cat:NomeCampo>ISPB IF</cat:NomeCampo>
-            <cat:DescricaoCampo>Número de identificação da Instituição Financeira no Sistema de Pagamentos  Brasileiro</cat:DescricaoCampo>
+            <cat:DescricaoCampo>Nï¿½mero de identificaï¿½ï¿½o da Instituiï¿½ï¿½o Financeira no Sistema de Pagamentos  Brasileiro</cat:DescricaoCampo>
           </cat:InfCampo>
         </xs:documentation>
       </xs:annotation>
@@ -105,8 +105,8 @@
       <xs:annotation>
         <xs:documentation>
           <cat:InfCampo>
-            <cat:NomeCampo>Número Referência SWIFT BMC</cat:NomeCampo>
-            <cat:DescricaoCampo>Número de referência da mensagem Swift da Câmara BMC.</cat:DescricaoCampo>
+            <cat:NomeCampo>Nï¿½mero Referï¿½ncia SWIFT BMC</cat:NomeCampo>
+            <cat:DescricaoCampo>Nï¿½mero de referï¿½ncia da mensagem Swift da Cï¿½mara BMC.</cat:DescricaoCampo>
           </cat:InfCampo>
         </xs:documentation>
       </xs:annotation>
@@ -115,8 +115,8 @@
       <xs:annotation>
         <xs:documentation>
           <cat:InfCampo>
-            <cat:NomeCampo>Data Liquidação</cat:NomeCampo>
-            <cat:DescricaoCampo>Data de liquidação de uma operação a termo</cat:DescricaoCampo>
+            <cat:NomeCampo>Data Liquidaï¿½ï¿½o</cat:NomeCampo>
+            <cat:DescricaoCampo>Data de liquidaï¿½ï¿½o de uma operaï¿½ï¿½o a termo</cat:DescricaoCampo>
           </cat:InfCampo>
         </xs:documentation>
       </xs:annotation>
@@ -125,8 +125,8 @@
       <xs:annotation>
         <xs:documentation>
           <cat:InfCampo>
-            <cat:NomeCampo>Código Moeda</cat:NomeCampo>
-            <cat:DescricaoCampo>Código de identificação da moeda, padrão utilizado pelo BACEN, conforme  CNC, Capítulo 2, Título 22.</cat:DescricaoCampo>
+            <cat:NomeCampo>Cï¿½digo Moeda</cat:NomeCampo>
+            <cat:DescricaoCampo>Cï¿½digo de identificaï¿½ï¿½o da moeda, padrï¿½o utilizado pelo BACEN, conforme  CNC, Capï¿½tulo 2, Tï¿½tulo 22.</cat:DescricaoCampo>
           </cat:InfCampo>
         </xs:documentation>
       </xs:annotation>
@@ -145,8 +145,8 @@
       <xs:annotation>
         <xs:documentation>
           <cat:InfCampo>
-            <cat:NomeCampo>Código SWIFT IF</cat:NomeCampo>
-            <cat:DescricaoCampo>Código Swift da Instituição Financeira</cat:DescricaoCampo>
+            <cat:NomeCampo>Cï¿½digo SWIFT IF</cat:NomeCampo>
+            <cat:DescricaoCampo>Cï¿½digo Swift da Instituiï¿½ï¿½o Financeira</cat:DescricaoCampo>
           </cat:InfCampo>
         </xs:documentation>
       </xs:annotation>
@@ -155,8 +155,8 @@
       <xs:annotation>
         <xs:documentation>
           <cat:InfCampo>
-            <cat:NomeCampo>Número Conta Banco Correspondente IF</cat:NomeCampo>
-            <cat:DescricaoCampo>Número da conta corrente da IF no Banco Correspondente no exterior onde  será feito o crédito da moeda estrangeira.</cat:DescricaoCampo>
+            <cat:NomeCampo>Nï¿½mero Conta Banco Correspondente IF</cat:NomeCampo>
+            <cat:DescricaoCampo>Nï¿½mero da conta corrente da IF no Banco Correspondente no exterior onde  serï¿½ feito o crï¿½dito da moeda estrangeira.</cat:DescricaoCampo>
           </cat:InfCampo>
         </xs:documentation>
       </xs:annotation>
@@ -188,7 +188,7 @@
   <xs:annotation>
     <xs:documentation>
       <cat:InfTipo>
-        <cat:DescricaoTipo>Domínio de sistema</cat:DescricaoTipo>
+        <cat:DescricaoTipo>Domï¿½nio de sistema</cat:DescricaoTipo>
       </cat:InfTipo>
     </xs:documentation>
   </xs:annotation>
@@ -215,7 +215,7 @@
   <xs:annotation>
     <xs:documentation>
       <cat:InfTipo>
-        <cat:DescricaoTipo>Indicador "Sim" ou "Não"</cat:DescricaoTipo>
+        <cat:DescricaoTipo>Indicador "Sim" ou "Nï¿½o"</cat:DescricaoTipo>
       </cat:InfTipo>
     </xs:documentation>
   </xs:annotation>
@@ -229,7 +229,7 @@
   <xs:annotation>
     <xs:documentation>
       <cat:InfTipo>
-        <cat:DescricaoTipo>Identificador da IF e Câmara junto ao Banco Central para o Sistema de Pagamentos Brasileiro.</cat:DescricaoTipo>
+        <cat:DescricaoTipo>Identificador da IF e Cï¿½mara junto ao Banco Central para o Sistema de Pagamentos Brasileiro.</cat:DescricaoTipo>
       </cat:InfTipo>
     </xs:documentation>
   </xs:annotation>
@@ -244,7 +244,7 @@
   <xs:annotation>
     <xs:documentation>
       <cat:InfTipo>
-        <cat:DescricaoTipo>Número Seqüencial que indica a ordem das mensagens particionadas.</cat:DescricaoTipo>
+        <cat:DescricaoTipo>Nï¿½mero Seqï¿½encial que indica a ordem das mensagens particionadas.</cat:DescricaoTipo>
       </cat:InfTipo>
     </xs:documentation>
   </xs:annotation>
@@ -257,7 +257,7 @@
   <xs:annotation>
     <xs:documentation>
       <cat:InfTipo>
-        <cat:DescricaoTipo>Número único da operação. Formato: para o Domínio de Sistema SPB02 = XXXXXXXXAAMMDDSSSSSSSSS em que XXXXXXXX - ISPB; AAMMDD - data; SSSSSSSSS - sequencial. Para os demais domínios de sistema = XXXXXXXXAAAAMMDDSSSSSSS em que XXXXXXXX - ISPB ou CNPJ de 8 posições; AAAAMMDD - data; SSSSSSS - sequencial.</cat:DescricaoTipo>
+        <cat:DescricaoTipo>Nï¿½mero ï¿½nico da operaï¿½ï¿½o. Formato: para o Domï¿½nio de Sistema SPB02 = XXXXXXXXAAMMDDSSSSSSSSS em que XXXXXXXX - ISPB; AAMMDD - data; SSSSSSSSS - sequencial. Para os demais domï¿½nios de sistema = XXXXXXXXAAAAMMDDSSSSSSS em que XXXXXXXX - ISPB ou CNPJ de 8 posiï¿½ï¿½es; AAAAMMDD - data; SSSSSSS - sequencial.</cat:DescricaoTipo>
       </cat:InfTipo>
     </xs:documentation>
   </xs:annotation>
@@ -272,7 +272,7 @@
   <xs:annotation>
     <xs:documentation>
       <cat:InfTipo>
-        <cat:DescricaoTipo>Código de identificação da moeda, padrão utilizado pelo BACEN, conforme CNC, Capítulo 2, Título 22.</cat:DescricaoTipo>
+        <cat:DescricaoTipo>Cï¿½digo de identificaï¿½ï¿½o da moeda, padrï¿½o utilizado pelo BACEN, conforme CNC, Capï¿½tulo 2, Tï¿½tulo 22.</cat:DescricaoTipo>
       </cat:InfTipo>
     </xs:documentation>
   </xs:annotation>
@@ -285,7 +285,7 @@
   <xs:annotation>
     <xs:documentation>
       <cat:InfTipo>
-        <cat:DescricaoTipo>Código da mensagem do sistema associado ao evento.</cat:DescricaoTipo>
+        <cat:DescricaoTipo>Cï¿½digo da mensagem do sistema associado ao evento.</cat:DescricaoTipo>
       </cat:InfTipo>
     </xs:documentation>
   </xs:annotation>
@@ -300,7 +300,7 @@
   <xs:annotation>
     <xs:documentation>
       <cat:InfTipo>
-        <cat:DescricaoTipo>Código Swift (BIC) da IF segundo a norma ISO 9362.</cat:DescricaoTipo>
+        <cat:DescricaoTipo>Cï¿½digo Swift (BIC) da IF segundo a norma ISO 9362.</cat:DescricaoTipo>
       </cat:InfTipo>
     </xs:documentation>
   </xs:annotation>
@@ -313,7 +313,7 @@
   <xs:annotation>
     <xs:documentation>
       <cat:InfTipo>
-        <cat:DescricaoTipo>Número de Controle da IF</cat:DescricaoTipo>
+        <cat:DescricaoTipo>Nï¿½mero de Controle da IF</cat:DescricaoTipo>
       </cat:InfTipo>
     </xs:documentation>
   </xs:annotation>
@@ -327,7 +327,7 @@
   <xs:annotation>
     <xs:documentation>
       <cat:InfTipo>
-        <cat:DescricaoTipo>Número da conta Bancária do correspondente da IF.</cat:DescricaoTipo>
+        <cat:DescricaoTipo>Nï¿½mero da conta Bancï¿½ria do correspondente da IF.</cat:DescricaoTipo>
       </cat:InfTipo>
     </xs:documentation>
   </xs:annotation>
@@ -340,7 +340,7 @@
   <xs:annotation>
     <xs:documentation>
       <cat:InfTipo>
-        <cat:DescricaoTipo>Número de referência da mensagem Swift. Formato = AADDDNNNNNN onde:AA - Ano; DDD - Data  Juliana; NNNNNN - Número seqüencial.</cat:DescricaoTipo>
+        <cat:DescricaoTipo>Nï¿½mero de referï¿½ncia da mensagem Swift. Formato = AADDDNNNNNN onde:AA - Ano; DDD - Data  Juliana; NNNNNN - Nï¿½mero seqï¿½encial.</cat:DescricaoTipo>
       </cat:InfTipo>
     </xs:documentation>
   </xs:annotation>
@@ -353,7 +353,7 @@
   <xs:annotation>
     <xs:documentation>
       <cat:InfTipo>
-        <cat:DescricaoTipo>Valor. Até dezessete inteiros e dois decimais e sinalizado. Para valores menores que zero, o valor será precedido pelo sinal "-". Exemplo: para 20 negativo informe -20 . Deve ser informado o ponto separador caso tenha  decimais. Exemplo: para R$100,00 informe 100; para R$100,10 informe 100.1; para R$100,11 informe 100.11; para R$100,11 negativo informe -100.11</cat:DescricaoTipo>
+        <cat:DescricaoTipo>Valor. Atï¿½ dezessete inteiros e dois decimais e sinalizado. Para valores menores que zero, o valor serï¿½ precedido pelo sinal "-". Exemplo: para 20 negativo informe -20 . Deve ser informado o ponto separador caso tenha  decimais. Exemplo: para R$100,00 informe 100; para R$100,10 informe 100.1; para R$100,11 informe 100.11; para R$100,11 negativo informe -100.11</cat:DescricaoTipo>
       </cat:InfTipo>
     </xs:documentation>
   </xs:annotation>
